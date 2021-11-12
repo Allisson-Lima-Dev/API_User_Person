@@ -19,7 +19,7 @@ const personRouter = require('./routes/personRoutes')
 app.use('/person', personRouter)
 
 
-app.get('/', (req, res) => {
+app.get('/Sal', (req, res) => {
     res.json({ msg: 'Oi express, deu certo!!!' })
 })
 
